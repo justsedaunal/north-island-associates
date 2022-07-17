@@ -101,6 +101,8 @@
             }
         }
     });
+    
+
 
 
     // Testimonials carousel
@@ -116,6 +118,41 @@
             '<i class="bi bi-arrow-right"></i>'
         ],
     });
+
+    //modal start
+    //  $('#myModal').modal('toggle')
+    // var myModal = new bootstrap.Modal(document.getElementById('myModal'), options)
+    // myModal.toggle()
+    
+    //modal end
+
+//clear form when go back the page start
+    $(window).bind("pageshow", function() {
+        var form = $('form'); 
+        // let the browser natively reset defaults
+        form[0].reset();
+    });
+//clear form when go back the page end
+
+
+//     document.getElementById("my_form").reset()
+
+// const form = document.getElementById('my_form');
+
+// form.addEventListener('submit', function handleSubmit(event) {
+//   event.preventDefault();
+
+  // 👇️ Send data to server here
+
+  // 👇️ Reset form here
+//   setTimeout(function () {
+//     form.reset();
+
+    
+//   },500)
+// });
+
+
     
 })(jQuery);
 

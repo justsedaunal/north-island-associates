@@ -100,6 +100,10 @@ h6,
     transform: skew(40deg);
 }
 
+.navbar-wrap {
+    flex-wrap: nowrap!important;
+}
+
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Jost', sans-serif;
     padding: 35px 15px;
@@ -190,7 +194,7 @@ h6,
 }
 
 .hero-header {
-    background: linear-gradient(rgba(9, 30, 62, .85), rgba(9, 30, 62, .85)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(9, 30, 62, .85), rgba(9, 30, 62, .85)), url(../img/foots-in-the-see.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -235,7 +239,7 @@ h6,
 }
 
 .bg-offer {
-    background:url(../img/carousel-1.jpg) center center no-repeat;
+    background:url(../img/foots-in-sand.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -330,7 +334,7 @@ h1 {
 
 .north-island-logo {
     background-color: rgb(48, 43, 62);
-    border-radius: 4rem;
+    border-radius: 40px;
     padding: 0.5rem;
     width: 100%;
     height: 65px;
@@ -338,9 +342,18 @@ h1 {
 
 }
 
+/* for doctor's images */
 .img-size {
-    width:100%;
+   width:100%;
    height:450px;
    object-fit:cover;
    object-position:50% 50%;
 }
+
+/* for service images */
+.image-size {
+    width:100%;
+    height:194px;
+    object-fit:cover;
+    object-position:50% 50%;
+ }
